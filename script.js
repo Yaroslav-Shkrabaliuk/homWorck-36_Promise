@@ -32,7 +32,7 @@
 // 3. Виконання промісу з ймовірністю успіху. Напишіть функцію, яка повертає проміс, яка має вказану ймовірність успішного виконання (наприклад, 70%). Успішне виконання повинно повертати "Успіх", а невдачу - "Помилка".
 // function promise() {
 //     return new Promise(function(resolve, reject) {
-//         const randomNumber = Math.random() < 0.7 ? resolve("Успіх") : reject("Помилка");        
+//          Math.random() < 0.7 ? resolve("Успіх") : reject("Помилка");        
 //     })
 // }
 // promise().then(data => console.log(data)).catch(error => console.log(error));
